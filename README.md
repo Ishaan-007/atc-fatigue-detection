@@ -98,7 +98,7 @@ You **must** run the notebooks in the following exact order, as downstream scrip
    * *Action:* Click **+ Add Data**, search for the "Your Work" tab, and attach the *processed spatial tensor dataset* you generated in Step 4.1. Click "Run All".
    * *Outcome:* Trains the adversarial network, generates the `.pth` model weights, and plots the training metrics.
 4. **Run `04-cfi-and-dynamic-scheduling.ipynb`.**
-   * *Action:* Ensure the trained model weights from Step 4.3 are accessible (you may need to add the output of the training notebook as data). Click "Run All".
+   * *Action:* Click **+ Add Data**, search for the "Your Work" tab, and attach the *processed spatial tensor dataset* you generated in Step 4.1 and the trained model weights from Step 4.3. Click "Run All".
    * *Outcome:* Simulates the operational shift and generates the final Continuous Fatigue Index (CFI) scheduling visualizations.
 
 ---
