@@ -8,7 +8,7 @@ Air Traffic Control Operators (ATCo) operate in high-stress, safety-critical env
 ## Project Overview
 This repository contains an end-to-end machine learning and deep learning pipeline that solves these challenges. We designed a **Multi-Domain Adversarial Network (MDAN)** utilizing a Convolutional Recurrent Neural Network (CRNN). By incorporating a Gradient Reversal Layer (GRL), the model maximizes fatigue detection accuracy while actively penalizing the network for retaining speaker identity or hardware-specific acoustics. 
 
-The resulting architecture achieves ~99% accuracy on the main fatigue task while maintaining near-random guessing for speaker identification (18.10%) and radio identification (24.11%), ensuring both operator privacy and operational resilience. Finally, the frame-level inferences are translated into an actionable Continuous Fatigue Index (CFI) dashboard for dynamic shift scheduling.
+The resulting architecture achieves ~99% accuracy on the main fatigue task while maintaining near-random guessing for speaker identification (17.5%) and radio identification (25.36%), ensuring both operator privacy and operational resilience. Finally, the frame-level inferences are translated into an actionable Continuous Fatigue Index (CFI) dashboard for dynamic shift scheduling.
 
 ---
 
